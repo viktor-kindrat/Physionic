@@ -599,3 +599,118 @@ footer p {
     min-height: 100vh;
     justify-content: space-around;
 }
+
+
+/* pricing  */
+
+.features .active {
+    list-style: url(./img/pricing/acc.png);
+    list-style-position: inside;
+    line-height: 24px;
+}
+
+.features .disabled {
+    list-style: url(./img/pricing/noacc.png);
+    list-style-position: inside;
+}
+
+.priceing {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-card {
+    height: 665px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 40px;
+    background: #FFFFFF;
+    border: 1px solid #23A6F0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.price-num {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #23A6F0;
+}
+
+.price-num__right {
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.priceing .text {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.priceing .text h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.plan {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.describe {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+
+.btn {
+    background-color: #23A6F0;
+    padding: 15px 82px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.features li {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 15px;
+}
+
+.price-card:nth-child(2) {
+    background: #252B42;
+}
+
+.price-card:nth-child(2) .plan,
+.price-card:nth-child(2) .describe,
+.price-card:nth-child(2) .features li {
+    color: #fff;
+}
